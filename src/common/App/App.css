@@ -1,0 +1,74 @@
+:local(.title) {
+  color: cornflowerblue;
+}
+
+:local(.input-user) {
+  width: 60%;
+  margin: 10px;
+  float: left;
+}
+
+:local(.button-get) {
+  margin: 10px;
+}
+
+:local(.repo-grid) {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: stretch;
+}
+
+:local(.repo-row) {
+  color: grey;
+  padding: 2mm;
+  margin: 10px 10px;
+  flex: 1 32%;
+  max-width: 32%;
+  border:1px solid #e0dbdb;
+}
+
+:local(.repo-name) {
+  color: cornflowerblue;
+  display: block;
+  margin-bottom: 5px;
+}
+
+:local(.repo-desc) {
+  margin-bottom: 20px;
+}
+
+:local(.repo-lan) {
+  display: inline-block;
+}
+
+:local(.repo-stars) {
+  padding-left: 5px;
+  display: inline-block;
+}
+
+:local(.repo-forks) {
+    padding-left: 5px;
+  display: inline-block;
+}
+
+:local(.circle-language) {
+  border-radius: 50%;
+	width: 15px;
+	height: 15px;
+  margin-right: 5px;
+  display: inline-block;
+  background-color: grey;
+}
+
+:local(.javascript) {
+  background-color: yellow;
+}
+
+:local(.ruby) {
+  background-color: red;
+}
+
+:local(.orange) {
+  background-color: orangered;
+}
+
